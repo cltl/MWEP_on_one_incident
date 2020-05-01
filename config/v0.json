@@ -1,0 +1,34 @@
+{
+  "spacy" : {
+     "models" : {
+    "nl": "nl_core_news_sm",
+    "en": "en_core_web_sm"
+  },
+    "settings" : {
+      "layers" : ["raw", "text", "terms"],
+      "naf_version" : "v4"
+    }
+  },
+  "wikidata_item_info" : {
+    "incident_type" : "Q21480300",
+    "incident_type_uri" : "Q21480300",
+    "incident_uri" : "Q62090804"
+  },
+  "chosen_languages" : ["nl", "en"],
+  "lang_to_wiki_title" : {
+    "nl" : "Aanslag_in_Utrecht_op_18_maart_2019",
+    "en" : "Utrecht_tram_shooting"
+  },
+  "newsplease" : {
+    "excluded_domains" : ["jstor.org"],
+    "title_required" : true,
+    "num_chars_range" : [100, 10001],
+    "startswith" : "http",
+    "timeout" : 4
+  },
+  "paths" : {
+    "out_dir" : "../output",
+    "naf_dir" : "../output/wiki_output",
+    "bin_dir" : "../output/bin"
+  }
+}
