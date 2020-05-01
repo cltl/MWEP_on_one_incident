@@ -1,6 +1,7 @@
-# Tram Aanslag Utrecht
+# Run MWEP on one Wikidata item
 
-The goal of this repository is represent texts one Wikidata item.
+The goal of this repository is represent texts of one Wikidata item.
+
 ### Prerequisites
 Python 3.6 was used to create this project. It might work with older versions of Python.
 
