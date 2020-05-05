@@ -2,7 +2,8 @@
   "spacy" : {
      "models" : {
     "nl": "nl_core_news_sm",
-    "en": "en_core_web_sm"
+    "en": "en_core_web_sm",
+    "it" : "it_core_news_sm"
   },
     "settings" : {
       "layers" : ["raw", "text", "terms"],
@@ -24,7 +25,9 @@
     "title_required" : true,
     "num_chars_range" : [100, 10001],
     "startswith" : "http",
-    "timeout" : 4
+    "timeout" : 4,
+    "illegal_substrings" : ["These crawls are part of an effort to archive pages",
+                          "Formed in 2009, the Archive Team"]
   },
   "paths" : {
     "out_dir" : "../output",

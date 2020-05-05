@@ -2,6 +2,7 @@
 
 python -m spacy download en_core_web_sm
 python -m spacy download nl_core_news_sm
+python -m spacy download it_core_news_sm
 
 rm -rf dep
 mkdir dep

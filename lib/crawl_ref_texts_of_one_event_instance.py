@@ -73,6 +73,7 @@ url_to_info = crawl_utils.get_ref_text_obj_of_primary_reference_texts(urls=all_l
                                                                       excluded_domains=settings['newsplease']['excluded_domains'],
                                                                       title_required=settings['newsplease']['title_required'],
                                                                       num_chars_range=num_chars_range,
+                                                                      illegal_substrings=settings['newsplease']['illegal_substrings'],
                                                                       verbose=verbose)
 
 # add ReferenceTexts
