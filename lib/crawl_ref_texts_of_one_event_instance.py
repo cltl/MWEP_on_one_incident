@@ -92,6 +92,8 @@ for ref_text_obj in inc_obj.reference_texts:
                                    dct=dct,
                                    layers=settings['spacy']['settings']['layers'],
                                    naf_version=settings['spacy']['settings']['naf_version'],
+                                   replace_hidden_characters=settings['spacy']['settings']['replace_hidden_characters'],
+                                   cdata=settings['spacy']['settings']['cdata'],
                                    title=ref_text_obj.name,
                                    uri=ref_text_obj.web_archive_uri,
                                    language=ref_text_obj.language,
