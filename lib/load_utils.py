@@ -17,7 +17,7 @@ def load_python_module(module_path, module_name, verbose=0):
     sys.path.remove(module_path)
     assert module_path not in sys.path
 
-    if verbose:
+    if verbose >= 3:
         print()
         print('imported module from')
         print('module path', module_path)

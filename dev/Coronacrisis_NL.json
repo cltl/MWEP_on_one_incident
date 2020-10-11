@@ -1,0 +1,39 @@
+{
+  "spacy" : {
+     "models" : {
+    "nl": "nl_core_news_sm",
+    "en": "en_core_web_sm",
+    "it" : "it_core_news_sm"
+  },
+    "settings" : {
+      "layers" : ["raw", "text", "terms", "deps"],
+      "naf_version" : "v3.1",
+      "replace_hidden_characters" : true,
+      "cdata" : true
+    }
+  },
+  "wikidata_item_info" : {
+    "incident_type" : "Q3241045",
+    "incident_type_uri" : "Q3241045",
+    "incident_uri" : "Q86756826"
+  },
+  "chosen_languages" : ["nl", "en"],
+  "lang_to_wiki_title" : {
+    "nl" : "Coronacrisis_in_Nederland",
+    "en" : "COVID-19_pandemic_in_the_Netherlands"
+  },
+  "newsplease" : {
+    "excluded_domains" : ["jstor.org"],
+    "title_required" : true,
+    "num_chars_range" : [100, 10001],
+    "startswith" : "http",
+    "timeout" : 4,
+    "illegal_substrings" : ["These crawls are part of an effort to archive pages",
+                          "Formed in 2009, the Archive Team"]
+  },
+  "paths" : {
+    "out_dir" : "../Q86756826/output",
+    "naf_dir" : "../Q86756826/output/wiki_output",
+    "bin_dir" : "../Q86756826/output/bin"
+  }
+}
