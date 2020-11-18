@@ -6,7 +6,7 @@ log_dir='../output/log';
 
 mkdir -p $log_dir;
 
-verbose=5;
+verbose=2;
 
 cd $lib_dir;
 

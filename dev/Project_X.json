@@ -29,11 +29,12 @@
     "startswith" : "http",
     "timeout" : 4,
     "illegal_substrings" : ["These crawls are part of an effort to archive pages",
-                          "Formed in 2009, the Archive Team"]
+                          "Formed in 2009, the Archive Team"],
+    "illegal_chars_in_title" : ["/"]
   },
   "paths" : {
-    "out_dir" : "../Q2399631/output",
-    "naf_dir" : "../Q2399631/output/wiki_output",
-    "bin_dir" : "../Q2399631/output/bin"
+    "out_dir" : "../output/Q2399631",
+    "naf_dir" : "../output/Q2399631/wiki_output",
+    "bin_dir" : "../output/Q2399631/bin"
   }
 }

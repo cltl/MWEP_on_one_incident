@@ -74,6 +74,7 @@ url_to_info = crawl_utils.get_ref_text_obj_of_primary_reference_texts(urls=all_l
                                                                       title_required=settings['newsplease']['title_required'],
                                                                       num_chars_range=num_chars_range,
                                                                       illegal_substrings=settings['newsplease']['illegal_substrings'],
+                                                                      illegal_chars_in_title=settings['newsplease']['illegal_chars_in_title'],
                                                                       verbose=verbose)
 
 # add ReferenceTexts
@@ -102,6 +103,8 @@ for ref_text_obj in inc_obj.reference_texts:
     output_path = os.path.join(settings['paths']['naf_dir'],
                                ref_text_obj.language,
                                f'{ref_text_obj.name}.naf')
+
+    print(output_path)
     spacy_to_naf.NAF_to_file(doc,
                              output_path)
 
