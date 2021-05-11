@@ -27,9 +27,6 @@ python crawl_ref_texts_of_one_event_instance.py -h
 ```
 
 Call the Python module with instructions from the command line.
-    
-## Authors
-* **Marten Postma** (m.c.postma@vu.nl)
 
 ## License
 This project is licensed under the Apache 2.0 License - see the [LICENSE.md](LICENSE.md) file for details
