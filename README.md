@@ -30,3 +30,8 @@ Call the Python module with instructions from the command line.
 
 ## License
 This project is licensed under the Apache 2.0 License - see the [LICENSE.md](LICENSE.md) file for details
+
+When using this tool please refer to:
+
+P. Vossen, F. Ilievski, M. Postma, and S. Roxane, “Don’t annotate, but validate: a data-to-text method for capturing event data,” in LREC2018, Myazaki, 2018. 
+
